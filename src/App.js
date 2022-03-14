@@ -51,9 +51,9 @@ function App() {
         <img src={`https://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`} alt="" />
         <h3>{tempNoDecimal?.toFixed()} {isFareng ? `°F` : `°C`}</h3>
         <ul>
-          <li>Wind Speed: {weather.wind?.speed} m/s</li>
-          <li>Clouds: {weather.clouds?.all} %</li>
-          <li>Humidity: {weather.main?.humidity} %</li>
+          <li><i className="fas fa-wind"></i> Wind Speed: {weather.wind?.speed} m/s</li>
+          <li><i className="fas fa-cloud"></i> Clouds: {weather.clouds?.all} %</li>
+          <li><i className="fas fa-temperature-high"></i> Humidity: {weather.main?.humidity} %</li>
         </ul>
       </div>
       <button onClick={convertTemp}>Degrees °F/°C</button>
