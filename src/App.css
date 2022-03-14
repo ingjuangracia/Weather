@@ -1,38 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+   
+
 .App {
+  background-color: aqua;
+  margin: 100px auto;
+  width: 250px;
+  height: 350px;
   text-align: center;
+  box-shadow: 3px 3px 3px gray;
+  border-radius: 20px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/09/02/42/blue-sky-2613323_960_720.jpg");
+  
+}
+  
+  
+h2 {
+  padding: 20px;
+  color:yellow;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  color: yellow;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h4 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 50px;
+  color: white
+  
+}  
+
+button {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px gray;
+  background-color: yellow;
+  
 }
