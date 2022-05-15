@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+      
 }
    
 
@@ -13,7 +14,9 @@
   text-align: center;
   box-shadow: 3px 3px 3px gray;
   border-radius: 20px;
-  background-image: url("https://cdn.pixabay.com/photo/2017/08/09/02/42/blue-sky-2613323_960_720.jpg");
+  background-image: url("https://i.pinimg.com/originals/70/75/41/70754199a81f77b22619f7c3ed6446f7.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   
 }
   
